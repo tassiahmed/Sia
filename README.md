@@ -1,7 +1,7 @@
 What Is Sia?
 ============
 
-Sia (/'saɪə/) is a compensation-based platform for distributed cloud storage. Anybody can join Sia as a storage host, and anybody can rent storage from the network. It's like Airbnb for your hard drive: through croudsourcing, we can eliminate a lot of overhead and improve quality of service.
+Sia (/'saɪə/) is a compensation-based platform for distributed cloud storage. Anybody can join Sia as a storage host, and anybody can rent storage from the network. It's like Airbnb for your hard drive: through crowd-sourcing, we can eliminate a lot of overhead and improve quality of service.
 
 Sia is a robust platform that stores files across hundreds of machines. If any of these machines fail, corrupt, or disconnect, the network will automatically repair the lost files with no break in service. Even with these protections against widespread failure or host withdrawal, the total redundancy is only around 25%—substantially less expensive than using RAID or a mirrored backup.
 
@@ -9,9 +9,9 @@ Sia is cheap. Very cheap. The amortized market cost of bulk storage is around $5
 
 Sia is fast. Every file is hosted across hundreds of machines, so downloads are highly parallel. In mosts cases, this should be enough to saturate your Internet connection. The power of distributed systems makes Sia both faster than Amazon S3 and cheaper than Amazon Glacier.
 
-Sia is elastic, meaning you can rent as much or as little storage as you want, and you pay for exactly what you are renting. You never need to guess whether you need the 100GB package or the 500GB package. Instead, you rent exactly as much as you use, expanding or contracting as you add and remove files. There is no fee for adjusting how much you are renting.
+Sia is elastic. You can rent as much or as little storage as you want, and you pay for exactly what you are renting. You never need to guess whether you need the 100GB package or the 500GB package. Instead, you rent exactly as much as you use, expanding or contracting as you add and remove files. There is no fee for adjusting how much you are renting.
 
-Sia secure. By default, all data is encrypted on the client machine before being uploaded to the network. The encrypted data is then divided into pieces and distributed across hundreds of hosts. Only you can view the contents of your files.
+Sia is secure. By default, all data is encrypted on the client machine before being uploaded to the network. The encrypted data is then divided into pieces and distributed across hundreds of hosts. Only you can view the contents of your files.
 
 Economic Model
 ======================
@@ -22,7 +22,7 @@ Storage can only be rented using siacoins. This presents a major inconvenience f
 
 Hosts on Sia have two incomes: mining and rental payments. Depending on the price of Siacoin vs. the price of storage, this could lead to a scenario where the network cost of storage is actually cheaper than the raw cost of the storage, due to the added bonus earned through mining.
 
-Siacoins are intended to be a means to an end, not a store of value. That's one of the reasons why we made the currency permanently inflationary. Rampant speculation is major contributor to the instability of most cryptocurrencies, which damages their credibility. Instead of speculating in Siacoin, clients are recommended to purchase only as many as they need to store their data for a comfortable period of time, and buy more as needed. This protects the client in the event of a price swing; if the value of Siacoin suddenly plummets, they won't get burned.
+Siacoins are intended to be a means to an end, not a store of value. That's one of the reasons why we made the currency permanently inflationary. Rampant speculation is a major contributor to the instability of most cryptocurrencies, which damages their credibility. Instead of speculating in Siacoin, clients are recommended to purchase only as many as they need to store their data for a comfortable period of time, and buy more as needed. This protects the client in the event of a price swing; if the value of Siacoin suddenly plummets, they won't get burned.
 
 Such swings may not turn out to be a serious problem though. If there is a sudden explosion in the amount of cheap storage available (e.g. if there is a major breakthrough in storage density), the value of Siacoin is likely to drop significantly. But the price per TB in siacoins should not change at all. Even though your siacoins are only worth half of what they used to be worth, they can be used to rent just as much storage as before. This is why we recommend equating siacoins to bytes rather than dollars.
 
